@@ -4,11 +4,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    /* Mod-tap: longer tapping term = less sensitive (more time to release for tap) */
-    &mt {
-        tapping-term-ms = <300>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -48,4 +43,9 @@
             display-name = "layer2";
         };
     };
+};
+
+/* Mod-tap: longer tapping term = less sensitive (more time to release for tap) */
+&mt {
+    tapping-term-ms = <400>;
 };
