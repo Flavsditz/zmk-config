@@ -47,6 +47,6 @@
 
 /* Mod-tap: longer tapping term = less sensitive (more time to release for tap) */
 &mt {
-    tapping-term-ms = <400>;
+    tapping-term-ms = <300>;
     flavor = "tap-preferred";
 };
