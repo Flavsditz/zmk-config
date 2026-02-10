@@ -9,11 +9,11 @@
 
         Base {
             bindings = <
-&kp GRAVE  &kp N1            &kp N2             &kp N3       &kp N4        &kp N5       &none  &kp N6       &kp N7             &kp N8       &kp N9           &kp N0         &kp MINUS
-&kp TAB    &kp Q             &kp W              &kp E        &kp R         &kp T        &none  &kp Y        &kp U              &kp I        &kp O            &kp P          &kp EQUAL
-&kp CAPS   &mt LWIN A        &mt LEFT_ALT S     &mt LCTRL D  &mt LSHIFT F  &kp G        &none  &kp H        &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RWIN SEMI  &kp APOS
-&kp LSHFT  &kp Z             &kp X              &kp C        &kp V         &kp B        &none  &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH       &kp BACKSLASH
-&none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ESCAPE   &kp SPACE     &lt 1 ESC    &none  &lt 2 ENTER  &kp SPACE          &kp TAB      &kp BACKSPACE    &kp DELETE
+&kp GRAVE  &kp N1            &kp N2             &kp N3       &kp N4         &kp N5       &none  &kp N6       &kp N7             &kp N8       &kp N9           &kp N0            &kp MINUS
+&kp TAB    &kp Q             &kp W              &kp E        &kp R          &kp T        &none  &kp Y        &kp U              &kp I        &kp O            &kp P             &kp EQUAL
+&kp CAPS   &mt LWIN A        &mt LEFT_ALT S     &mt LCTRL D  &mt LSHIFT F   &kp G        &none  &kp H        &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RWIN SEMI     &kp APOS
+&kp LSHFT  &kp Z             &kp X              &kp C        &kp V          &kp B        &none  &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH          &kp BACKSLASH
+&none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL      &kp BACKSPACE  &lt 1 ESC    &none  &lt 2 ENTER  &kp SPACE          &kp TAB      &kp LESS_THAN    &kp GREATER_THAN
             >;
 
             display-name = "LAYER0";
@@ -46,6 +46,7 @@
 };
 
 /* Mod-tap: longer tapping term = less sensitive (more time to release for tap) */
+
 &mt {
     tapping-term-ms = <300>;
     flavor = "tap-preferred";
